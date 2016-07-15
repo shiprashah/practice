@@ -21,7 +21,7 @@ public class HamurabiPlayer {
 	
 	private int pricePerAcre;
 	
-	//ASSUMPTION VALUE MADE FOR THE GAME
+	//ASSUMPTION VALUE MADE FOR THE GAME 
 	private static final int INIT_NUM_BUSHELS = 3000;
 	private static final int INIT_ACRE_LAND = 1000;
 	private static final int INIT_NUM_PEOPLE = 100;
