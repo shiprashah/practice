@@ -12,7 +12,7 @@ The HR clearly mentioned the following DONT's
 
 
 Q] What was the solution approach?
-After reading about the basic idea of Hamurabi, development was started based on some assumptions (stated later). The idea was to be able to provide an application which can do the essential tasks of a Hamurabi game viz. initialize a player, play a trun, get notified if a turn is unacceptable, get an account of the state of the game after every move, end the game when appropriate.
+After reading about the basic idea of Hamurabi, development was started based on some assumptions (stated later). The idea was to be able to provide an application which can do the essential tasks of a Hamurabi game viz. initialize a player, play a turn, get notified if a turn is unacceptable, get an account of the state of the game after every move, end the game when appropriate.
 The rules of the games were whiteboarded into algorithims which was then followed by encoding them in java.
 
 Q] What criteria was used to certify the solution as acceptable?
@@ -40,7 +40,7 @@ Assumption 4: Rat can eat 0 to the number of bushels available after feeding the
 Q] How can one expand on this problem?
 For a generic game a super player class can be created and hamurabi player class can then inherit (extend in case of java) that class
 For a more specilized hamurabi player, one can create the specilized class and have it inherit hamurabi player class
-The functionality of the class can be expanded to provide other sophisticated applications such as Setellers of Catan and Dominion
+The functionality of the class can be expanded to provide other sophisticated applications such as Setellers of Catan and PueroRico
 
 Q] How can you make this a multi player game?
 A] There is a note in Ruby Quiz about making this a multi player game. With some refactoring, this solution can be made into a multi player game. Here is the idea:
