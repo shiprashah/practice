@@ -44,11 +44,13 @@ The functionality of the class can be expanded to provide other sophisticated ap
 
 Q] How can you make this a multi player game?
 A] There is a note in Ruby Quiz about making this a multi player game. With some refactoring, this solution can be made into a multi player game. Here is the idea:
-SingletonGameManager
-{
-	Map<playerName, HamurabiPlayer>
 
-	All the players will share the common random elements:
+</br>
+	SingletonGameManager
+	{
+	Map < playerName, HamurabiPlayer >
+
+	All the players will share the common random elements. The following elements will belong to the singleton manager:
 	isPlague;
 	priceOfLand;
 	immigrants;
@@ -60,7 +62,7 @@ SingletonGameManager
 	acres;
 	numberOfPeople;
 	hasGameEnded;
-}
+	}
 //Assumption -- a year cannot move forward unless all the players have played.
 Please let me know if you would like me to implelemt the above and I will be happy to do so.
 
